@@ -6,5 +6,4 @@ def my_each(array)
     counter += 1
   end
   array.map {|e| new_array << e }
-  end
 end
