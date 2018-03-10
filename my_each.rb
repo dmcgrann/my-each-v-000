@@ -5,7 +5,7 @@ def my_each(array)
     yield
     counter += 1
   end
+  array.each do |e|
+    new_array << e
+  end
 end
-
-array.each do |e|
-  new_array << e
