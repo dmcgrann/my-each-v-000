@@ -6,11 +6,8 @@ def my_each(array)
       counter += 1
     end
   else
-    array
-  end
-end
-
-array = []
-my_each(array) do |e|
-  array
+    array = []
+    my_each(array) do |e|
+      array
+    end
 end
