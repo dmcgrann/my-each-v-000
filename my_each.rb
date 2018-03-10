@@ -10,4 +10,5 @@ def my_each(array)
     my_each(array) do |e|
       array
     end
+  end
 end
