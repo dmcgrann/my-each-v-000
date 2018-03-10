@@ -5,10 +5,7 @@ def my_each(array)
       yield(array[i])
       counter += 1
     end
+    array
   else
-    array = []
-    my_each(array) do |e|
-      array
-    end
   end
 end
